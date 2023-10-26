@@ -72,6 +72,11 @@ bind-address = 0.0.0.0
 
 ```
 
+check mac con...
+```bash
+select @@global.max_connections;
+```
+
 ```bash
 sudo systemctl restart mariadb
 ```
