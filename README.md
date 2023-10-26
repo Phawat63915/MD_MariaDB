@@ -66,5 +66,12 @@ vi /etc/mysql/my.cnf
 ```
 
 ```"/etc/mysql/my.cnf" (new line)
+[mysqld]
+max_connections = 154924
 bind-address = 0.0.0.0
+
+```
+
+```bash
+sudo systemctl restart mariadb
 ```
